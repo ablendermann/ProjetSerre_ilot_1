@@ -8,9 +8,6 @@
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
                    projectFiles="true">
-      <itemPath>VueMeteo.ui</itemPath>
-      <itemPath>VuePrincipale.ui</itemPath>
-      <itemPath>VueSerre.ui</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -28,6 +25,9 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>VueMeteo.ui</itemPath>
+    <itemPath>VuePrincipale.ui</itemPath>
+    <itemPath>VueSerre.ui</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
