@@ -10,7 +10,7 @@
  *
  * Created on 19 décembre 2019, 18:29
  */
-
+#include "VuePrincipale.h"
 #include <QApplication>
 
 int main(int argc, char *argv[]) {
@@ -19,7 +19,11 @@ int main(int argc, char *argv[]) {
 
     QApplication app(argc, argv);
 
-    // create and show your widgets here
+    VuePrincipale *monFormulaire = new VuePrincipale() ;
+    monFormulaire -> show() ;
+
+
+
 
     return app.exec();
 }

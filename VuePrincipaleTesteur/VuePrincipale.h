@@ -13,16 +13,25 @@
 
 #ifndef _VUEPRINCIPALE_H
 #define _VUEPRINCIPALE_H
-
+#include <QLayout>
 #include "ui_VuePrincipale.h"
+#include "VueSerre.h"
+
 
 class VuePrincipale : public QWidget {
     Q_OBJECT
 public:
     VuePrincipale();
     virtual ~VuePrincipale();
+    void mettreAJour();
+    
+    
+    
 private:
     Ui::VuePrincipale widget;
+    
+    VueSerre* serre1;
+    
 };
 
 #endif /* _VUEPRINCIPALE_H */

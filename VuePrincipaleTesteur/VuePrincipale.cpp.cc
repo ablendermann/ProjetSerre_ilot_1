@@ -13,9 +13,23 @@
 
 #include "VuePrincipale.h"
 
+
+
 VuePrincipale::VuePrincipale() {
     widget.setupUi(this);
+    
+    serre1 = new VueSerre();
+    
+    widget.serre->addWidget(serre1);
+    
 }
 
 VuePrincipale::~VuePrincipale() {
+}
+
+void VuePrincipale::mettreAJour(){
+   
+    
+
+    
 }
