@@ -20,8 +20,11 @@ VuePrincipale::VuePrincipale() {
     
     serre1 = new VueSerre();
     
+    meteo1 = new VueMeteo();
+    
     widget.serre->addWidget(serre1);
     
+    widget.meteo->addWidget(meteo1);
 }
 
 VuePrincipale::~VuePrincipale() {

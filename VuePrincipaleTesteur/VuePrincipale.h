@@ -16,6 +16,8 @@
 #include <QLayout>
 #include "ui_VuePrincipale.h"
 #include "VueSerre.h"
+#include "VueMeteo.h"
+
 
 
 class VuePrincipale : public QWidget {
@@ -31,7 +33,7 @@ private:
     Ui::VuePrincipale widget;
     
     VueSerre* serre1;
-    
+    VueMeteo* meteo1;
 };
 
 #endif /* _VUEPRINCIPALE_H */
