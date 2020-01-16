@@ -2,15 +2,15 @@
 # Use project properties -> Build -> Qt -> Expert -> Custom Definitions.
 TEMPLATE = app
 DESTDIR = dist/Release/GNU-Linux
-TARGET = VuePrincipaleTesteur
+TARGET = VueMeteoTesteur
 VERSION = 1.0.0
 CONFIG -= debug_and_release app_bundle lib_bundle
 CONFIG += release 
 PKGCONFIG +=
 QT = core gui widgets
-SOURCES += VueMeteo.cpp.cc VuePrincipale.cpp.cc VueSerre.cpp.cc main.cpp
-HEADERS += VueMeteo.h VuePrincipale.h VueSerre.h
-FORMS += VueMeteo.ui VuePrincipale.ui VueSerre.ui
+SOURCES += main.cpp
+HEADERS +=
+FORMS +=
 RESOURCES +=
 TRANSLATIONS +=
 OBJECTS_DIR = build/Release/GNU-Linux

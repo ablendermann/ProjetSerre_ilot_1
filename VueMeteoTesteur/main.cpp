@@ -8,9 +8,9 @@
  * File:   main.cpp
  * Author: snir2g1
  *
- * Created on 19 décembre 2019, 18:29
+ * Created on 19 décembre 2019, 16:52
  */
-#include "VuePrincipale.h"
+
 #include <QApplication>
 
 int main(int argc, char *argv[]) {
@@ -19,11 +19,7 @@ int main(int argc, char *argv[]) {
 
     QApplication app(argc, argv);
 
-    VuePrincipale *monFormulaire = new VuePrincipale() ;
-    monFormulaire -> show() ;
-
-
-
+    // create and show your widgets here
 
     return app.exec();
 }
