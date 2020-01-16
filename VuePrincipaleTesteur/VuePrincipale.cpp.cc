@@ -12,6 +12,8 @@
  */
 
 #include "VuePrincipale.h"
+#include "VueSerre.h"
+#include "VueMeteo.h"
 
 
 
@@ -31,8 +33,8 @@ VuePrincipale::~VuePrincipale() {
 }
 
 void VuePrincipale::mettreAJour(){
-   
     
-
+    
+    
     
 }
